@@ -1,4 +1,4 @@
-import Swiper from '@/components/Swiper';
+import Swipers from '@/components/Swiper';
 import SwiperSecond from '@/components/SwiperSecond';
 import SwiperSecondMobile from '@/components/SwiperSecondMobile';
 import Image from 'next/image'
@@ -99,7 +99,7 @@ const homepage = () => {
               </div>
             </div>
             <div className="lg:hidden w-full">
-            <Swiper/>
+            <Swipers/>
           </div>
           </div>
         </div>

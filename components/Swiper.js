@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Image from 'next/image';
 
-export default () => {
+const Swipers =  () => {
   return (
     <div className=" w-full h-1/2">
         <Swiper
@@ -99,3 +99,6 @@ export default () => {
     </div>
   );
 };
+
+Swipers.displayName = "Swipers";
+export default Swipers

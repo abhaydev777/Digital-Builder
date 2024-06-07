@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar';
 import Image from 'next/image';
 import { BiSolidMessageDots } from "react-icons/bi";
 
-export default () => {
+const SwiperSecond =  () => {
   return (
     <div className=" w-full h-1/2">
         <Swiper
@@ -148,3 +148,6 @@ export default () => {
     </div>
   );
 };
+
+SwiperSecond.displayName = "SwiperSecond";
+export default SwiperSecond
