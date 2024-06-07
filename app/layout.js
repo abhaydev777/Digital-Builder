@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { StickNoBills } from "./assets/fonts/fonts";
 import LenisScroll from "@/components/LenisScroll";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
           {children}
         </div>
         <Footer/>
+        <SpeedInsights />
         </body>
       </LenisScroll>
     </html>
