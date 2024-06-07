@@ -109,9 +109,9 @@ const homepage = () => {
           </div>
           <div className="right1 lg:w-1/2 lg:h-screen flex flex-col justify-center text-start px-10 lg:pr-32 pb-10 text-black">
             <h1 className=' font-extrabold text-xl lg:text-2xl text-start pt-5 flex gap-2 text-nowrap'>Welcome to <div className=""><h1 className=' text-[#0F6F6F]'>Digital Builders</h1></div></h1>
-            <h2 className='pt-5'>At Digital Builders, we're not just a community; we're a launchpad for aspiring developers, freelancers, and digital creators. </h2>
-            <h3 className='pt-5'>Dive into a world where code meets creativity, transforming ideas into digital realities. Whether you're here to sharpen your coding skills, embark on your freelancing journey, or collaborate on groundbreaking projects, we've got you covered.</h3>
-            <h4 className='pt-5'>we believe in the power of collaboration and innovation. Our dynamic environment encourages experimentation, fosters creativity, and cultivates a mindset of continuous learning and improvement. Join us today and unlock your full potential in the ever-evolving digital landscape. Let's build a brighter future together!</h4>
+            <h2 className='pt-5'>At Digital Builders, we&apos;re not just a community; we&apos;re a launchpad for aspiring developers, freelancers, and digital creators. </h2>
+            <h3 className='pt-5'>Dive into a world where code meets creativity, transforming ideas into digital realities. Whether you&apos;re here to sharpen your coding skills, embark on your freelancing journey, or collaborate on groundbreaking projects, we&apos;ve got you covered.</h3>
+            <h4 className='pt-5'>we believe in the power of collaboration and innovation. Our dynamic environment encourages experimentation, fosters creativity, and cultivates a mindset of continuous learning and improvement. Join us today and unlock your full potential in the ever-evolving digital landscape. Let&apos;s build a brighter future together!</h4>
             <button className='mt-5 lg:mt-6 w-40 px-5 py-3 bg-[#0F6F6F] shadow-black shadow-md text-white font-semibold rounded-md flex justify-center items-center gap-3'>learn More <MdArrowOutward className=' text-xl' />
             </button>
           </div>
@@ -134,7 +134,7 @@ const homepage = () => {
          <div className="bottom lg:mt-2 bg-black w-full lg:w-1/2 h-1/2 lg:min-h-64 flex items-center justify-center">
           <div className=" text-black w-5/6 lg:w-3/4 flex flex-col items-center">
             <h1 className=' text-2xl pt-8 lg:pt-0 lg:text-4xl font-semibold text-white'>Your journey as a developer does not have to be hard</h1>
-            <button className="mt-10 px-6 py-3 font-semibold text-white bg-gray-500 rounded-md">Let's work together</button>
+            <button className="mt-10 px-6 py-3 font-semibold text-white bg-gray-500 rounded-md">Let&apos;s work together</button>
           </div>
          </div>
         </div>

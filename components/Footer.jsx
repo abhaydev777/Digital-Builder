@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="top lg:flex lg:justify-between items-center px-2">
         <div className="logo flex flex-col gap-1 items-start justify-center">
             <Image src="/images/logo.webp" alt="Logo" width={50} height={50} />
-            <h1 className='lg:hidden'>Let's connect with our socials</h1>
+            <h1 className='lg:hidden'>Let&apos;s connect with our socials</h1>
         </div>
         <div className="auth lg:hidden flex items-center justify-start gap-8 pt-3 text-xl">
         <a href="https://www.youtube.com/@lionelthebuilder/featured" target="_blank"><FaYoutube /></a>
