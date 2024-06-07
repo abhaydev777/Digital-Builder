@@ -35,7 +35,7 @@ const Navbar = () => {
     <>
       <nav className= {`${styles.navbar} ${scrollDirection === 'up' ? styles.show : styles.hide} w-full h-20 flex justify-between items-center px-5 z-10 lg:px-24 fixed bg-[#0000003a] backdrop-blur-lg`}>
         <div className="logo flex gap-2 items-center">
-            <Image src="/images/logo.webp" alt="Logo" width={60} height={50} />
+            <Image src="/images/logo.png" alt="Logo" width={60} height={50} />
             <h1 className='DBtext'>DIGITAL BUILDERS</h1>
         </div>
         <div className="hidden routes lg:flex gap-4">

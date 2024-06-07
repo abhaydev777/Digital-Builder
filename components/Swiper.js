@@ -29,8 +29,9 @@ const Swipers =  () => {
       }}
     >
       <SwiperSlide>
-        <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9b9a9a5a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center ">
+          <div className="w-[300px] min-h-[88%] mt-6 bg-blue-200 absolute"></div>
+        <div className="card mt-6 w-[325px] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9bd7ff2a]  backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
               <div className=" w-28 h-28 lg:w-16 lg:h-16 rounded-full bg-blue-400 overflow-hidden">
                 <Image className=' object-cover w-[100%] h-[100%]' src={"/images/image_card1.jpg"} alt='' width={100} height={100}/>
               </div>
@@ -40,8 +41,9 @@ const Swipers =  () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9b9a9a5a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center ">
+          <div className="w-[300px] min-h-[88%] mt-6 bg-blue-200 absolute"></div>
+        <div className="card mt-6 w-[325px] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9bd7ff2a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
               <div className=" w-28 h-28 lg:w-16 lg:h-16 rounded-full bg-blue-400 overflow-hidden">
                 <Image className=' object-cover w-[100%] h-[100%]' src={"/images/image_card1.jpg"} alt='' width={100} height={100}/>
               </div>
@@ -51,8 +53,9 @@ const Swipers =  () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9b9a9a5a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center ">
+          <div className="w-[300px] min-h-[88%] mt-6 bg-blue-200 absolute"></div>
+        <div className="card mt-6 w-[325px] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9bd7ff2a]  backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
               <div className=" w-28 h-28 lg:w-16 lg:h-16 rounded-full bg-blue-400 overflow-hidden">
                 <Image className=' object-cover w-[100%] h-[100%]' src={"/images/image_card1.jpg"} alt='' width={100} height={100}/>
               </div>
@@ -62,8 +65,9 @@ const Swipers =  () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9b9a9a5a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center ">
+          <div className="w-[300px] min-h-[88%] mt-6 bg-blue-200 absolute"></div>
+        <div className="card mt-6 w-[325px] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9bd7ff2a]  backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
               <div className=" w-28 h-28 lg:w-16 lg:h-16 rounded-full bg-blue-400 overflow-hidden">
                 <Image className=' object-cover w-[100%] h-[100%]' src={"/images/image_card1.jpg"} alt='' width={100} height={100}/>
               </div>
@@ -73,8 +77,9 @@ const Swipers =  () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9b9a9a5a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center ">
+          <div className="w-[300px] min-h-[88%] mt-6 bg-blue-200 absolute"></div>
+        <div className="card mt-6 w-[325px] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9bd7ff2a]  backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
               <div className=" w-28 h-28 lg:w-16 lg:h-16 rounded-full bg-blue-400 overflow-hidden">
                 <Image className=' object-cover w-[100%] h-[100%]' src={"/images/image_card1.jpg"} alt='' width={100} height={100}/>
               </div>
@@ -84,8 +89,9 @@ const Swipers =  () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9b9a9a5a] backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center ">
+          <div className="w-[300px] min-h-[88%] mt-6 bg-blue-200 absolute"></div>
+        <div className="card mt-6 w-[325px] lg:w-72 min-h-80 py-10 lg:h-64 bg-[#9bd7ff2a]  backdrop-blur-sm rounded-md flex flex-col justify-center items-center">
               <div className=" w-28 h-28 lg:w-16 lg:h-16 rounded-full bg-blue-400 overflow-hidden">
                 <Image className=' object-cover w-[100%] h-[100%]' src={"/images/image_card1.jpg"} alt='' width={100} height={100}/>
               </div>

@@ -31,7 +31,7 @@ const SwiperSecondMobile =  () => {
     >
       <SwiperSlide>
         <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
+        <div className="card mt-6 w-[320px] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
                 <div className=" flex justify-end w-full pr-5 text-3xl">
                     <BiSolidMessageDots className=' text-[#0F6F6F]' />
                 </div>
@@ -50,7 +50,7 @@ const SwiperSecondMobile =  () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
+        <div className="card mt-6 w-[320px] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
                 <div className=" flex justify-end w-full pr-5 text-3xl">
                     <BiSolidMessageDots className=' text-[#0F6F6F]' />
                 </div>
@@ -69,7 +69,7 @@ const SwiperSecondMobile =  () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
+        <div className="card mt-6 w-[320px] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
                 <div className=" flex justify-end w-full pr-5 text-3xl">
                     <BiSolidMessageDots className=' text-[#0F6F6F]' />
                 </div>
@@ -88,7 +88,7 @@ const SwiperSecondMobile =  () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
+        <div className="card mt-6 w-[320px] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
                 <div className=" flex justify-end w-full pr-5 text-3xl">
                     <BiSolidMessageDots className=' text-[#0F6F6F]' />
                 </div>
@@ -107,7 +107,7 @@ const SwiperSecondMobile =  () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
+        <div className="card mt-6 w-[320px] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
                 <div className=" flex justify-end w-full pr-5 text-3xl">
                     <BiSolidMessageDots className=' text-[#0F6F6F]' />
                 </div>
@@ -126,7 +126,7 @@ const SwiperSecondMobile =  () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="flex justify-center items-center">
-        <div className="card mt-6 w-[86%] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
+        <div className="card mt-6 w-[320px] lg:w-72 min-h-80 pt-5 pb-10 lg:h-64 bg-white border border-[#9D9797] backdrop-blur-sm flex flex-col justify-center items-start">
                 <div className=" flex justify-end w-full pr-5 text-3xl"> 
                     <BiSolidMessageDots className=' text-[#0F6F6F]' />
                 </div>

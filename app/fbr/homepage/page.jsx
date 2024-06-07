@@ -14,9 +14,9 @@ import { MdAttachEmail } from "react-icons/md";
 const homepage = () => {
   return (
       <main className=' w-full min-h-screen lg:min-h-[100vh]'>
-        <div className="page1 w-full min-h-screen lg:min-h-[100vh] lg:flex bg-black">
-        <div className="left lg:w-1/2 lg:h-screen min-h-1/2 flex flex-col lg:pl-24 px-6 pt-32 lg:pt-32 gap-10 ">
-            <h1 className='herotext text-5xl lg:w-3/4'>Unlock Your Potential: Build Your Future with <p className='text-[#0F6F6F]'>Digital Builders</p></h1>
+        <div className="page1 w-full min-h-screen sm:min-h-[100vh] md:min-h-32 md:pb-10 lg:h-screen md:flex lg:flex bg-black">
+        <div className="left md:w-1/2 lg:w-1/2 lg:max-h-[85vh] lg:min-h-32 min-h-1/2 flex flex-col justify-center lg:pl-24 px-6 pt-32 lg:pt-32 gap-10 ">
+            <h1 className='herotext text-5xl lg:w-3/4'>Unlock Your Potential: Build Your Future with <span className='text-[#0F6F6F] text-nowrap'>Digital Builders</span></h1>
             <h5 className='lg:w-3/4'>Forge your path in tech with code and community. No degree? No problem. Code, grow, and impact daily. Start your transformation with us!</h5>
             <div className="circles flex pt-5">
               <div className="w-14 h-14 bg-red-500 overflow-hidden rounded-full">
@@ -46,8 +46,8 @@ const homepage = () => {
               </div>
             </div>
         </div>
-        <div className="right lg:w-1/2 lg:h-[90vh] h-1/2 lg:flex justify-center items-center pt-10 pb-10">
-            <Image src={"/images/hero.webp"} alt='Hero' width={500} height={100}/>
+        <div className="right md:w-1/2 lg:w-1/2 lg:min-h-screen h-1/2 flex justify-center items-center pt-10 lg:pt-0 md:pt-36 pb-10 lg:pb-0">
+            <Image className=' md:w-[90%] lg:w-[75vh]' src={"/images/hero.webp"} alt='Hero' width={500} height={500}/>
         </div>
         </div>
         <div className="page2 w-full min-h-32 lg:min-h-[100vh] bg-white relative lg:pb-16">
@@ -104,15 +104,15 @@ const homepage = () => {
           </div>
         </div>
         <div className="page3 w-full min-h-96 lg:min-h-[100vh] lg:flex bg-slate-100 pt-10">
-          <div className="left1 lg:w-1/2 lg:h-screen flex items-center justify-center lg:justify-end">
-            <Image className='w-2/3 rounded-xl' src={"/images/about_image.jpg"} alt='about_image' width={1440} height={800} />
+          <div className="left1 lg:w-1/2  flex items-center justify-center lg:justify-end">
+            <Image className='w-2/3 lg:w-[70vh] rounded-xl' src={"/images/about_image.jpg"} alt='about_image' width={1440} height={800} />
           </div>
-          <div className="right1 lg:w-1/2 lg:h-screen flex flex-col justify-center text-start px-10 lg:pr-32 pb-10 text-black">
-            <h1 className=' font-extrabold text-xl lg:text-2xl text-start pt-5 flex gap-2 text-nowrap'>Welcome to <div className=""><h1 className=' text-[#0F6F6F]'>Digital Builders</h1></div></h1>
-            <h2 className='pt-5'>At Digital Builders, we&apos;re not just a community; we&apos;re a launchpad for aspiring developers, freelancers, and digital creators. </h2>
-            <h3 className='pt-5'>Dive into a world where code meets creativity, transforming ideas into digital realities. Whether you&apos;re here to sharpen your coding skills, embark on your freelancing journey, or collaborate on groundbreaking projects, we&apos;ve got you covered.</h3>
-            <h4 className='pt-5'>we believe in the power of collaboration and innovation. Our dynamic environment encourages experimentation, fosters creativity, and cultivates a mindset of continuous learning and improvement. Join us today and unlock your full potential in the ever-evolving digital landscape. Let&apos;s build a brighter future together!</h4>
-            <button className='mt-5 lg:mt-6 w-40 px-5 py-3 bg-[#0F6F6F] shadow-black shadow-md text-white font-semibold rounded-md flex justify-center items-center gap-3'>learn More <MdArrowOutward className=' text-xl' />
+          <div className="right1 lg:w-1/2 2xl:w-2/5 lg:h-screen flex flex-col justify-center text-start px-10 lg:pr-32 pb-10 text-black">
+            <h1 className=' font-extrabold text-xl md:text-3xl lg:text-4xl text-start pt-5 flex justify-center gap-2 text-nowrap'>Welcome to <div className=""><h1 className=' text-[#0F6F6F]'>Digital Builders</h1></div></h1>
+            <h2 className='pt-5 md:pl-24 md:pr-20 2xl:text-xl lg:pl-0 lg:pr-0'>At Digital Builders, we&apos;re not just a community; we&apos;re a launchpad for aspiring developers, freelancers, and digital creators. </h2>
+            <h3 className='pt-5 md:pl-24 md:pr-20 2xl:text-xl lg:pl-0 lg:pr-0'>Dive into a world where code meets creativity, transforming ideas into digital realities. Whether you&apos;re here to sharpen your coding skills, embark on your freelancing journey, or collaborate on groundbreaking projects, we&apos;ve got you covered.</h3>
+            <h4 className='pt-5 md:pl-24 md:pr-20 2xl:text-xl lg:pl-0 lg:pr-0'>we believe in the power of collaboration and innovation. Our dynamic environment encourages experimentation, fosters creativity, and cultivates a mindset of continuous learning and improvement. Join us today and unlock your full potential in the ever-evolving digital landscape. Let&apos;s build a brighter future together!</h4>
+            <button className='mt-5 md:ml-24 md:mr-20 lg:mt-6 w-40 px-5 py-3 bg-[#0F6F6F] shadow-black shadow-md text-white font-semibold rounded-md flex justify-center items-center gap-3'>learn More <MdArrowOutward className=' text-xl' />
             </button>
           </div>
         </div>
@@ -127,7 +127,7 @@ const homepage = () => {
           </div>
           </div>
         </div>
-        <div className="page5 w-full min-h-32 pb-10 lg:min-h-32 bg-black lg:flex">
+        <div className="page5 w-full min-h-32 pb-10 lg:pb-0 lg:min-h-32 bg-black lg:flex">
          <div className="top w-full lg:w-1/2 h-1/2 lg:min-h-32">
           <Image className=' w-full' src={"/images/bottom.jpg"} alt='bottom image' width={782} height={309}/>
          </div>
@@ -138,10 +138,10 @@ const homepage = () => {
           </div>
          </div>
         </div>
-        <div className="page6 w-full min-h-32 lg:min-h-32 bg-white lg:flex">
-         <div className=" bg-[#0F6F6F] w-full min-h-32 lg:mx-52 my-10 lg:my-28 text-white flex flex-col lg:flex-row">
-         <div className="top lg:hidden ">
-            <Image className=' w-full' src={"/images/last_bottom.jpg"} alt='bottom_image' width={592} height={495}/>
+        <div className="page6 w-full min-h-32 sm:min-h-32 sm:flex lg:min-h-32 bg-white lg:flex">
+         <div className=" bg-[#0F6F6F] w-full min-h-32 sm:mx-52 md:mx-16 md:my-16 sm:my-28 lg:mx-40 my-10 lg:my-28 text-white flex flex-col md:flex-row lg:flex-row items-center">
+         <div className="top sm:hidden md:hidden lg:hidden flex justify-center pt-14 ">
+            <Image className=' w-full rounded-2xl' src={"/images/last_bottom.jpg"} alt='bottom_image' width={592} height={495}/>
           </div>
           <div className="left w-full lg:w-3/6 pt-10 pb-10 lg:pt-20 flex flex-col gap-8">
             <h1 className=' text-3xl font-semibold text-start pl-10 pr-10 lg:pl-10 lg:pr-10'>If you need help or have questions?</h1>
@@ -152,8 +152,8 @@ const homepage = () => {
               <h3 className='flex gap-2 items-center'><MdAttachEmail /> Lionel.thebldrs@gmail.com</h3>
             </div>
           </div>
-          <div className="hidden lg:block right min-w-3/2">
-            <Image className=' w-full' src={"/images/last_bottom.jpg"} alt='bottom_image' width={592} height={495}/>
+          <div className="hidden sm:block md:bolck lg:block right md:mr-14 md:py-5 lg:py-14 md:min-w-[50%] lg:w-3/2">
+            <Image className=' w-full sm:rounded-xl sm:mb-4 md:mb-0' src={"/images/last_bottom.jpg"} alt='bottom_image' width={592} height={495}/>
           </div>
          </div>
         </div>
