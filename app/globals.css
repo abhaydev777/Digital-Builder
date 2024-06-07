@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +31,48 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.DBtext {
+  font-family: var(--StickNoBills-font);
+  font-weight: 700;
+  user-select: none;
+}
+
+.herotext {
+  font-family: var(--StickNoBills-font);
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: .8vw;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(148, 147, 147);
+  border: 2.5px solid white;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: black;
+  border: 2px solid rgb(216, 216, 216);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(126, 124, 124);
+  cursor: grab;
+  cursor: -webkit-grab;
+}
+
+::selection {
+  background: white;
+  color: black;
+}
+
+.borders {
+  border-top: 2px solid red;
 }
